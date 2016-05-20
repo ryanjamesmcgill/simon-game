@@ -322,11 +322,11 @@ var Application = React.createClass({
 						</div>
 						<div className="game-row">
 							<div className="col-left">
-								<div style={buttonStyle} onClick={onShapeClick} id="b0" className="simonButton"></div>
+								<div key={'b0'+this.state.animationProgressCount} style={buttonStyle} onClick={onShapeClick} id="b0" className="simonButton"></div>
 							</div>
 							<div className="col-mid"></div>
 							<div className="col-right">
-								<div style={buttonStyle} onClick={onShapeClick} id="b1" className="simonButton"></div>
+								<div key={'b1'+this.state.animationProgressCount} style={buttonStyle} onClick={onShapeClick} id="b1" className="simonButton"></div>
 							</div>						
 						</div>
 						<div className="game-row">
@@ -336,11 +336,11 @@ var Application = React.createClass({
 						</div>
 						<div className="game-row">
 							<div className="col-left">
-								<div style={buttonStyle} onClick={onShapeClick} id="b2" className="simonButton"></div>
+								<div key={'b2'+this.state.animationProgressCount} style={buttonStyle} onClick={onShapeClick} id="b2" className="simonButton"></div>
 							</div>
 							<div className="col-mid"></div>
 							<div className="col-right">
-								<div style={buttonStyle} onClick={onShapeClick} id="b3" className="simonButton"></div>
+								<div key={'b3'+this.state.animationProgressCount} style={buttonStyle} onClick={onShapeClick} id="b3" className="simonButton"></div>
 							</div>
 						</div>
 					</div>

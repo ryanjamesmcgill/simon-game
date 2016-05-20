@@ -51931,13 +51931,13 @@ var Application = React.createClass({
 							React.createElement(
 								"div",
 								{ className: "col-left" },
-								React.createElement("div", { style: buttonStyle, onClick: onShapeClick, id: "b0", className: "simonButton" })
+								React.createElement("div", { key: 'b0' + this.state.animationProgressCount, style: buttonStyle, onClick: onShapeClick, id: "b0", className: "simonButton" })
 							),
 							React.createElement("div", { className: "col-mid" }),
 							React.createElement(
 								"div",
 								{ className: "col-right" },
-								React.createElement("div", { style: buttonStyle, onClick: onShapeClick, id: "b1", className: "simonButton" })
+								React.createElement("div", { key: 'b1' + this.state.animationProgressCount, style: buttonStyle, onClick: onShapeClick, id: "b1", className: "simonButton" })
 							)
 						),
 						React.createElement(
@@ -51953,13 +51953,13 @@ var Application = React.createClass({
 							React.createElement(
 								"div",
 								{ className: "col-left" },
-								React.createElement("div", { style: buttonStyle, onClick: onShapeClick, id: "b2", className: "simonButton" })
+								React.createElement("div", { key: 'b2' + this.state.animationProgressCount, style: buttonStyle, onClick: onShapeClick, id: "b2", className: "simonButton" })
 							),
 							React.createElement("div", { className: "col-mid" }),
 							React.createElement(
 								"div",
 								{ className: "col-right" },
-								React.createElement("div", { style: buttonStyle, onClick: onShapeClick, id: "b3", className: "simonButton" })
+								React.createElement("div", { key: 'b3' + this.state.animationProgressCount, style: buttonStyle, onClick: onShapeClick, id: "b3", className: "simonButton" })
 							)
 						)
 					)
